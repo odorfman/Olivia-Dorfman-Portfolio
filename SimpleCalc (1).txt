@@ -1,0 +1,71 @@
+#Olivia
+#Simple Calculator
+
+
+#Initialize
+
+#Function
+def SimpleCalculator(): #allows the user to put in arithmetic problems for the computer to solve
+    print("Welcome to Simple Calculator")
+    while True:
+        print("Please choose an operation: ")
+        print("""
+        1.Addition
+        2.Subtraction
+        3.Multiplication
+        4.Division
+        5.Quit""")
+        operation=int(input("(1-5) :"))
+
+        def add():
+            add1=int(input("Please choose your first addend"))
+            add2=int(input("Please choose your second addend"))
+            result=add1+add2
+            print("The sum is " + str(result))
+
+
+        def subtract():
+            sub1=int(input("Please choose your minuend"))
+            sub2=int(input("Please choose your subtrahend"))
+            result=sub1-sub2
+            print("The difference is " + str(result))
+
+        def multiply():
+            mul1=int(input("Please choose your multiplicand"))
+            mul2=int(input("Please choose your multiplier"))
+            result=mul1*mul2
+            print("The product is " + str(result))
+
+        def division():
+            div1=int(input("Please choose your dividend"))
+            div2=int(input("Please choose your divisor"))
+            result=div1/div2
+            print("The quotient is " + str(result))
+
+
+        if operation==1:
+            add()
+        if operation==2:
+            subtract()
+        if operation==3:
+            multiply()
+        if operation==4:
+            division()
+        if operation==5:
+            print("Thank you for using Simple Calculator")
+            break
+
+
+
+
+
+
+
+
+
+
+
+
+#Main
+SimpleCalculator()
+

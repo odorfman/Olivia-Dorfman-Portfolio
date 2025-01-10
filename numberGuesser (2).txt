@@ -1,0 +1,135 @@
+#Olivia
+#11/11/24
+
+#Initialize
+import random #to generate a random number from the computer that the user will guess
+
+#Functions
+def numberGuesser(): #allows a user to guess a number created by a computer
+    print ("Welcome! Guess the number, but be careful because a wrong answer could result to a zero on your next comp sci assignment.")
+    level=input("Would you like easy, medium, hard, or master?")
+    if level=="easy" or level=="Easy":
+        x=int(input("Enter number between 1 and 10"))
+        y=random.randint(1,10)
+    if level=="medium" or level=="Medium":
+        x=int(input("Enter number between 1 and 50"))
+        y=random.randint(1,50)
+    if level=="hard" or level=="Hard":
+        x=int(input("Enter number between 1 and 100"))
+        y=random.randint(1,100)
+    if level=="master" or level=="Master":
+        x=int(input("Enter number between 1 and 1000"))
+        y=random.randint(1,1000)
+
+
+    if x==y:
+        print ("You are correct!")
+        again=input("Would you like to play again?")
+        if again=="yes":
+            numberGuesser()
+        else:
+            print("Thanks for playing!")
+    if x>y:
+        print("You guessed too high. Try again.")
+        newNumber=int(input("Enter your new guess"))
+        if newNumber==y:
+            print ("You are correct!")
+            again=input("Would you like to play again?")
+            if again=="yes":
+                numberGuesser()
+            else:
+                print("Thanks for playing!")
+        if newNumber>y:
+            print("You guessed too high. Try again.")
+            lastNumber=int(input("Enter your final guess"))
+            if lastNumber==y:
+                print ("You are correct!")
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+            if lastNumber!=y:
+                print ("You are incorrect.")
+                print ("The correct answer was " + str(y))
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+
+        if newNumber<y:
+            print("You guessed too low. Try again.")
+            lastNumber=int(input("Enter your final guess"))
+            if lastNumber==y:
+                print ("You are correct!")
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+            if lastNumber!=y:
+                print ("You are incorrect.")
+                print ("The correct answer was " + str(y))
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+
+
+
+
+
+
+    if x<y:
+        print("You guessed too low. Try again.")
+        newNumber=int(input("Enter your new guess"))
+        if newNumber==y:
+            print ("You are correct!")
+            again=input("Would you like to play again?")
+            if again=="yes":
+                numberGuesser()
+            else:
+                print("Thanks for playing!")
+        if newNumber>y:
+            print("You guessed too high. Try again.")
+            lastNumber=int(input("Enter your final guess"))
+            if lastNumber==y:
+                print ("You are correct!")
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+            if lastNumber!=y:
+                print ("You are incorrect.")
+                print ("The correct answer was " + str(y))
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+        if newNumber<y:
+            print("You guessed too low. Try again.")
+            lastNumber=int(input("Enter your final guess"))
+            if lastNumber==y:
+                print ("You are correct!")
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+            if lastNumber!=y:
+                print ("You are incorrect.")
+                print ("The correct answer was " + str(y))
+                again=input("Would you like to play again?")
+                if again=="yes":
+                    numberGuesser()
+                else:
+                    print("Thanks for playing!")
+
+
+#Main
+numberGuesser()
+
