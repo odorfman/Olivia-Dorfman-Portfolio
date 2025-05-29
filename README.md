@@ -1,5 +1,5 @@
 # Olivia-Dorfman-AP-CSP-Portfolio
-This is a collection of the works I am most proud of from semester 1 of AP Computer Science Principles
+This is a collection of the works I am most proud of from AP Computer Science Principles
 
   ### Project 1: Multiplication Quiz 
 **Summary**: This program allows users to take a multiplication quiz. 
@@ -46,3 +46,43 @@ This is a collection of the works I am most proud of from semester 1 of AP Compu
 - Shows the user what the computer chose. 
 - User friendly interface.
 
+  ### Project 6: Magic 8 Ball
+**Summary**: This program allows users to ask the magic 8-ball a question.
+
+**Key Features**: 
+- Displays win, loss, and tie record.
+- Shows the user what the computer chose. 
+- User friendly interface.
+
+  ### Project 7: Slot Machine
+**Summary**: This program allows users to play the slots.
+
+**Key Features**: 
+- Displays win, loss, and tie record.
+- Shows the user what the computer chose. 
+- User friendly interface.
+  
+  ### Project 8: To-Do List
+**Summary**: This program allows users to enter and remove tasks from their to-to list.
+
+**Key Features**: 
+- Displays win, loss, and tie record.
+- Shows the user what the computer chose. 
+- User friendly interface.
+  
+  ### Project 9: Dog Breeds
+**Summary**: This program allows users to find a dog that is compatible with them based on the size of dog they prefer.
+
+**Key Features**: 
+- Displays win, loss, and tie record.
+- Shows the user what the computer chose. 
+- User friendly interface.
+
+  ### Project 10: Destination Randomizer
+**Summary**: This program allows users to have a country generated for them based on their unique population preference.
+
+**Key Features**: 
+- Displays win, loss, and tie record.
+- Shows the user what the computer chose. 
+- User friendly interface.
+ 
