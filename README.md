@@ -9,6 +9,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Shows the flag of the generated country. 
 - User friendly interface.
 
+
   ### Project 2: Dog Breeds
 **Summary**: This program allows users to find a dog that is compatible with them based on the size of dog they prefer.
 
@@ -16,6 +17,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Displays image of the compatible dog.
 - Four dog sizes for the user to choose from. 
 - User friendly interface.
+
 
   ### Project 3: Slot Machine
 **Summary**: This program allows users to play slots.
@@ -25,6 +27,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Gives and collects credits. 
 - Does not allow user to play unless they have the required amount of credits.
 
+
   ### Project 4: To-Do List
 **Summary**: This program allows users to enter and remove tasks from their to-to list.
 
@@ -33,6 +36,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Displays list or number of items in list upon user's request. 
 - User friendly interface.
 
+
   ### Project 5: Magic 8 Ball
 **Summary**: This program allows users to ask the magic 8-ball a question.
 
@@ -40,6 +44,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Wide variety of responses.
 - Shows the effects of the 8-ball. 
 - User friendly interface.
+
 
   ### Project 6: Pokemon Game
 **Summary**: This program allows users to develop their pokemon by training and battleing. 
@@ -50,6 +55,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Displays the Pokemon's level and battle record.
 - User friendly interface.
 
+
   ### Project 7: Rock Paper Scissors
 **Summary**: This program allows users to play the game rock, paper, scissors with the computer.
 
@@ -58,7 +64,8 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Shows the user what the computer chose. 
 - User friendly interface.
 
-### Project 8: Number Guesser
+
+  ### Project 8: Number Guesser
 **Summary**: This program allows users to guess a number that the computer comes up with. 
 
 **Key Features**: 
@@ -66,6 +73,7 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - Program tells the user if their is too high or too low.
 - User can continue until they opt-out. 
 - User friendly interface.
+
   
   ### Project 9: Multiplication Quiz 
 **Summary**: This program allows users to take a multiplication quiz. 
@@ -78,7 +86,8 @@ This is a collection of the works I am most proud of from AP Computer Science Pr
 - The user can choose to continue without losing their record.
 - User friendly interface.
 
-### Project 10: Simple Calculator
+
+  ### Project 10: Simple Calculator
 **Summary**: This program allows users to compute simple calculations. 
 
 **Key Features**: 
